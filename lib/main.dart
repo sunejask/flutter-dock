@@ -14,12 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        body: /* 
-        Padding(
-          padding: const EdgeInsets.all(16),
-          child: 
-          */
-            Center(
+        body: Center(
           child: Dock(
             items: const [
               Icons.person,
